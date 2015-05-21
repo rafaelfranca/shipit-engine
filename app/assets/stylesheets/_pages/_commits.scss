@@ -12,6 +12,15 @@
   content: "No undeployed commits, Walrus is happy.";
 }
 
+.status-group {
+  .status-items {
+    display: none;
+  }
+  &:hover .status-items {
+    display: block;
+  }
+}
+
   .commit-lst li, .deploy-lst li {
     padding: .75rem 0;
     border-bottom: 1px solid rgba(#000, .05);
